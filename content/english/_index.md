@@ -87,9 +87,25 @@ service:
         
 ################### Screenshot ########################
 screenshot:
-  enable : false
-  title : "Experience the best <br> workflow with us"
-  image : "images/screenshot.svg"
+  enable : true
+  title : "Our Clients"
+  works: 
+    - name: FUMCOR
+      url: https://fumcor.org
+      image: "images/fumcor.png"
+    - name: Interfaith Alliance
+      url: https://interfaithalliance.org
+      image: "images/interfaithalliance.png"
+    - name: State of Belief
+      url: stateofbelief.com
+      image: "images/stateofbelief.png"
+    - name: Swiftech
+      url: https://swifte.ch
+      image: "images/swiftech.png"
+    - name: OneResume
+      url: https://oneresume.us
+      image: "images/oneresume.png"
+    
 
   
 

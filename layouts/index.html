@@ -114,7 +114,17 @@
       </div>
     </div>
   </div>
-  {{ with .image }} <img src="{{ . | relURL }}" alt="" class="img-fluid w-100">{{ end }}
+  <div style="display: flex; flex-flow: row wrap; align-items: center; justify-content: center; border-radius: 10px; max-width: 80vw; margin: 0 auto;">
+  {{ range .works }}
+  <a href={{ .url }} style="max-width: 20vw; margin: 5px; border: 1px solid rgba(0,0,0,0.2); border-radius: 10px !important; min-width: 300px" class="worksImg">
+    <img src={{.image}} alt={{.name}} style="width: 100%; border-radius: 10px !important; z-index: -1"/>
+    <span>
+      <h3 style="margin-top: -40px !important; margin-left: 10px; color: whitesmoke; mix-blend-mode: difference;">{{.name}}</h3>
+    </span>
+  </a>
+  
+  {{ end }}
+</div>
 </section>
 {{ end }}
 {{ end }}
