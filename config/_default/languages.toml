@@ -5,9 +5,9 @@ title = "Orbital Web Management"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
-footer_menu_left = "Orbital Web"
-footer_menu_middle = "Web Management & Hosting"
+footer_menu_left = "Service"
+footer_menu_middle = "Support"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "Orbital Web is a service dedicated to website development, hosting and maintenance."
 # copyright
 copyright = "A Service by Richard Martin"

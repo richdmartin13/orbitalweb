@@ -88,7 +88,7 @@ service:
 ################### Screenshot ########################
 screenshot:
   enable : true
-  title : "Our Clients"
+  title : "Our Clients and Works"
   works: 
     - name: FUMCOR
       url: https://fumcor.org
@@ -97,7 +97,7 @@ screenshot:
       url: https://interfaithalliance.org
       image: "images/interfaithalliance.png"
     - name: State of Belief
-      url: stateofbelief.com
+      url: https://stateofbelief.com
       image: "images/stateofbelief.png"
     - name: Swiftech
       url: https://swifte.ch

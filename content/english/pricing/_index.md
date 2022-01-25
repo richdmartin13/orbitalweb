@@ -7,53 +7,55 @@ draft: false
 
 basic:
   name : "Basic Plan"
-  price: "$49"
+  price: "$299"
   price_per : "month"
-  info : "Best For Small Individuals"
+  info : "A Great Start"
   services:
-  - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
+  - "Content Updates"
+  - "Security Checkups"
+  - "SEO Optimization"
+  - "10 Hours Per Month"
   button:
     enable : true
-    label : "Get started for free"
-    link : "#"
+    label : "Get Started"
+    link : "https://buy.stripe.com/fZe28C3HX96VcwgdQQ"
     
 professional:
   name : "Professional Plan"
-  price: "$49"
+  price: "$499"
   price_per : "month"
-  info : "Best For Professionals"
+  info : "A Robust Solution"
   services:
+  - "Basic Features"
+  - "Custom Pages"
+  - "Site  Hosting"
   - "Express Service"
-  - "Customs Clearance"
-  - "Time-Critical Services"
-  - "Cloud Service"
-  - "Best Dashboard"
+  - "15 Hours Per Month"
   button:
     enable : true
-    label : "Get started for free"
-    link : "#"
+    label : "Get Started"
+    link : "https://buy.stripe.com/6oE7sW2DTaaZdAk5kl"
     
 business:
   name : "Business Plan"
-  price: "$49"
+  price: "$999"
   price_per : "month"
-  info : "Best For Large Individuals"
+  info : "The Complete Package"
   services:
-  - "Express Service"
-  - "Customs Clearance"
+  - "Professional Features"
+  - "Priority Support"
   - "Time-Critical Services"
+  - "20 Hours Per Month"
   button:
     enable : true
-    label : "Get started for free"
-    link : "#"
+    label : "Get Started"
+    link : "https://buy.stripe.com/fZe28C3HX96VcwgdQQ"
 
 call_to_action:
   enable : true
   title : "Need a larger plan?"
-  image : "images/cta.svg"
-  content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur."
+  image : "images/store.png"
+  content : "Get in touch with us and we'll schedule a conference with you to determine your needs."
   button:
     enable : true
     label : "Contact Us"
