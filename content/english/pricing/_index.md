@@ -1,29 +1,29 @@
 ---
-title: "Preise"
+title: "Pricing"
 subtitle: ""
 # meta description
-description: "Dies ist die Metabeschreibung"
+description: "This is meta description"
 draft: false
 
 basic:
-  name : "Basis Plan"
-  price: "€49"
-  price_per : "Monat"
-  info : "Ideal für KMUs"
+  name : "Basic Plan"
+  price: "$49"
+  price_per : "month"
+  info : "Best For Small Individuals"
   services:
   - "Express Service"
   - "Customs Clearance"
   - "Time-Critical Services"
   button:
     enable : true
-    label : "Kostenlos starten"
+    label : "Get started for free"
     link : "#"
     
 professional:
   name : "Professional Plan"
-  price: "€49"
-  price_per : "Monat"
-  info : "Ideal für Professionals"
+  price: "$49"
+  price_per : "month"
+  info : "Best For Professionals"
   services:
   - "Express Service"
   - "Customs Clearance"
@@ -32,21 +32,21 @@ professional:
   - "Best Dashboard"
   button:
     enable : true
-    label : "Kostenlos starten"
+    label : "Get started for free"
     link : "#"
     
 business:
   name : "Business Plan"
-  price: "€49"
-  price_per : "Monat"
-  info : "Ideal für Unternehmen"
+  price: "$49"
+  price_per : "month"
+  info : "Best For Large Individuals"
   services:
   - "Express Service"
   - "Customs Clearance"
   - "Time-Critical Services"
   button:
     enable : true
-    label : "Kostenlos starten"
+    label : "Get started for free"
     link : "#"
 
 call_to_action:

@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "orbitalweb.us"
 title = "Orbital Web Management"
 # theme = "bigspring-light"
 # post pagination

@@ -1,13 +1,13 @@
 ---
-title: "Kontakt"
+title: "Contact Us"
 subtitle: ""
 # meta description
-description: "Dies ist die Metabeschreibung"
+description: "This is meta description"
 draft: false
 ---
 
 
-### Warum Sie uns kontaktieren sollten!
+### Why you should contact us!
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
 
 * **Phone: +88 125 256 452** 

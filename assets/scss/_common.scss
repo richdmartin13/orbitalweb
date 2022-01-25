@@ -85,6 +85,9 @@ a:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("images/waves.svg");
+  z-index: -100;
 }
 
 .border-default {
@@ -110,6 +113,8 @@ a:hover {
 
 .bg-primary {
   background-color: $primary-color !important;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .bg-light {
@@ -118,6 +123,8 @@ a:hover {
 
 .text-primary {
   color: $primary-color !important;
+  opacity: 1;
+  z-index: 1;
 }
 
 .rounded-lg{
@@ -165,11 +172,11 @@ textarea.form-control {
     left: -30px;
     top: 3px;
   }
-  svg{
-    position: absolute;
-    color: $primary-color;
-    font-size: 25px;
-    left: -30px;
-    top: 3px;
-  }
+  // svg {
+  //   position: absolute;
+  //   color: $primary-color;
+  //   font-size: 25px;
+  //   left: -30px;
+  //   top: 3px;
+  // }
 }
